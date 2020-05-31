@@ -1,0 +1,328 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "ScopeShunt"
+Date "2020-05-31"
+Rev "A"
+Comp "Voltlog"
+Comment1 "Released under GPLv2"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R_US R1
+U 1 1 5EB0FCD6
+P 3950 3200
+F 0 "R1" H 4018 3246 50  0000 L CNN
+F 1 "R_US" H 4018 3155 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 3990 3190 50  0001 C CNN
+F 3 "~" H 3950 3200 50  0001 C CNN
+	1    3950 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R2
+U 1 1 5EB10A4C
+P 4250 3200
+F 0 "R2" H 4318 3246 50  0000 L CNN
+F 1 "R_US" H 4318 3155 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 4290 3190 50  0001 C CNN
+F 3 "~" H 4250 3200 50  0001 C CNN
+	1    4250 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R3
+U 1 1 5EB11211
+P 4550 3200
+F 0 "R3" H 4618 3246 50  0000 L CNN
+F 1 "R_US" H 4618 3155 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 4590 3190 50  0001 C CNN
+F 3 "~" H 4550 3200 50  0001 C CNN
+	1    4550 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R4
+U 1 1 5EB113B1
+P 4850 3200
+F 0 "R4" H 4918 3246 50  0000 L CNN
+F 1 "R_US" H 4918 3155 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 4890 3190 50  0001 C CNN
+F 3 "~" H 4850 3200 50  0001 C CNN
+	1    4850 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R5
+U 1 1 5EB115F5
+P 5150 3200
+F 0 "R5" H 5218 3246 50  0000 L CNN
+F 1 "R_US" H 5218 3155 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 5190 3190 50  0001 C CNN
+F 3 "~" H 5150 3200 50  0001 C CNN
+	1    5150 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R6
+U 1 1 5EB119F0
+P 5450 3200
+F 0 "R6" H 5518 3246 50  0000 L CNN
+F 1 "R_US" H 5518 3155 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 5490 3190 50  0001 C CNN
+F 3 "~" H 5450 3200 50  0001 C CNN
+	1    5450 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R7
+U 1 1 5EB11DCA
+P 5750 3200
+F 0 "R7" H 5818 3246 50  0000 L CNN
+F 1 "R_US" H 5818 3155 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 5790 3190 50  0001 C CNN
+F 3 "~" H 5750 3200 50  0001 C CNN
+	1    5750 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R8
+U 1 1 5EB12091
+P 6050 3200
+F 0 "R8" H 6118 3246 50  0000 L CNN
+F 1 "R_US" H 6118 3155 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 6090 3190 50  0001 C CNN
+F 3 "~" H 6050 3200 50  0001 C CNN
+	1    6050 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R9
+U 1 1 5EB123A5
+P 6350 3200
+F 0 "R9" H 6418 3246 50  0000 L CNN
+F 1 "R_US" H 6418 3155 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 6390 3190 50  0001 C CNN
+F 3 "~" H 6350 3200 50  0001 C CNN
+	1    6350 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R10
+U 1 1 5EB126F8
+P 6650 3200
+F 0 "R10" H 6718 3246 50  0000 L CNN
+F 1 "R_US" H 6718 3155 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 6690 3190 50  0001 C CNN
+F 3 "~" H 6650 3200 50  0001 C CNN
+	1    6650 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 3050 3950 2900
+Wire Wire Line
+	3950 2900 4250 2900
+Wire Wire Line
+	6650 2900 6650 3050
+Wire Wire Line
+	4250 3050 4250 2900
+Connection ~ 4250 2900
+Wire Wire Line
+	4250 2900 4550 2900
+Wire Wire Line
+	4550 3050 4550 2900
+Connection ~ 4550 2900
+Wire Wire Line
+	4550 2900 4850 2900
+Wire Wire Line
+	4850 3050 4850 2900
+Connection ~ 4850 2900
+Wire Wire Line
+	4850 2900 5150 2900
+Wire Wire Line
+	5150 3050 5150 2900
+Connection ~ 5150 2900
+Wire Wire Line
+	5150 2900 5300 2900
+Wire Wire Line
+	5450 3050 5450 2900
+Connection ~ 5450 2900
+Wire Wire Line
+	5750 3050 5750 2900
+Connection ~ 5750 2900
+Wire Wire Line
+	5750 2900 6050 2900
+Wire Wire Line
+	6050 3050 6050 2900
+Connection ~ 6050 2900
+Wire Wire Line
+	6050 2900 6350 2900
+Wire Wire Line
+	6350 3050 6350 2900
+Connection ~ 6350 2900
+Wire Wire Line
+	6350 2900 6650 2900
+Wire Wire Line
+	3950 3350 3950 3500
+Wire Wire Line
+	3950 3500 4250 3500
+Wire Wire Line
+	6650 3500 6650 3350
+Wire Wire Line
+	4250 3350 4250 3500
+Connection ~ 4250 3500
+Wire Wire Line
+	4250 3500 4550 3500
+Wire Wire Line
+	4550 3350 4550 3500
+Connection ~ 4550 3500
+Wire Wire Line
+	4550 3500 4850 3500
+Wire Wire Line
+	4850 3350 4850 3500
+Connection ~ 4850 3500
+Wire Wire Line
+	4850 3500 5150 3500
+Wire Wire Line
+	5150 3350 5150 3500
+Connection ~ 5150 3500
+Wire Wire Line
+	5150 3500 5300 3500
+Wire Wire Line
+	5450 3350 5450 3500
+Connection ~ 5450 3500
+Wire Wire Line
+	5450 3500 5750 3500
+Wire Wire Line
+	5750 3350 5750 3500
+Connection ~ 5750 3500
+Wire Wire Line
+	5750 3500 6050 3500
+Wire Wire Line
+	6050 3350 6050 3500
+Connection ~ 6050 3500
+Wire Wire Line
+	6050 3500 6350 3500
+Wire Wire Line
+	6350 3350 6350 3500
+Connection ~ 6350 3500
+Wire Wire Line
+	6350 3500 6650 3500
+Wire Wire Line
+	5300 2900 5300 2200
+Connection ~ 5300 2900
+Wire Wire Line
+	5300 2900 5450 2900
+Wire Wire Line
+	5300 3500 5300 4150
+Connection ~ 5300 3500
+Wire Wire Line
+	5300 3500 5450 3500
+Wire Wire Line
+	5450 2900 5750 2900
+Wire Wire Line
+	5500 2600 5300 2900
+Wire Wire Line
+	5500 3850 5300 3500
+$Comp
+L Connector:TestPoint S1
+U 1 1 5EB1BF9A
+P 5500 2600
+F 0 "S1" V 5454 2788 50  0000 L CNN
+F 1 "S+" V 5545 2788 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 5700 2600 50  0001 C CNN
+F 3 "~" H 5700 2600 50  0001 C CNN
+	1    5500 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint S2
+U 1 1 5EB1B333
+P 5500 3850
+F 0 "S2" V 5454 4038 50  0000 L CNN
+F 1 "S-" V 5545 4038 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 5700 3850 50  0001 C CNN
+F 3 "~" H 5700 3850 50  0001 C CNN
+	1    5500 3850
+	0    1    1    0   
+$EndComp
+Text Notes 3800 3600 0    50   ~ 10
+0.25W
+Text Notes 4100 3600 0    50   ~ 10
+0.25W
+Text Notes 4400 3600 0    50   ~ 10
+0.25W
+Text Notes 4700 3600 0    50   ~ 10
+0.25W
+Text Notes 5000 3600 0    50   ~ 10
+0.25W
+Text Notes 5300 3600 0    50   ~ 10
+0.25W
+Text Notes 5600 3600 0    50   ~ 10
+0.25W
+Text Notes 5900 3600 0    50   ~ 10
+0.25W
+Text Notes 6200 3600 0    50   ~ 10
+0.25W
+Text Notes 6500 3600 0    50   ~ 10
+0.25W
+Text Notes 3650 3750 0    50   ~ 10
+Total power rating is 10 x 0.25W = 2.5W
+Text Label 5300 2350 0    50   ~ 0
+F+
+Text Label 5300 4050 0    50   ~ 0
+F-
+$Comp
+L Connector:TestPoint F2
+U 1 1 5EB185F6
+P 5300 4150
+F 0 "F2" H 5242 4176 50  0000 R CNN
+F 1 "F-" H 5242 4267 50  0000 R CNN
+F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 5500 4150 50  0001 C CNN
+F 3 "~" H 5500 4150 50  0001 C CNN
+	1    5300 4150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint F1
+U 1 1 5EB17BAC
+P 5300 2200
+F 0 "F1" H 5358 2318 50  0000 L CNN
+F 1 "F+" H 5358 2227 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 5500 2200 50  0001 C CNN
+F 3 "~" H 5500 2200 50  0001 C CNN
+	1    5300 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 6089935F
+P 7550 3000
+F 0 "H1" H 7650 3047 50  0000 L CNN
+F 1 "MountingHole" H 7650 2954 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 7550 3000 50  0001 C CNN
+F 3 "~" H 7550 3000 50  0001 C CNN
+	1    7550 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 6089A40A
+P 7550 3300
+F 0 "H2" H 7650 3347 50  0000 L CNN
+F 1 "MountingHole" H 7650 3254 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 7550 3300 50  0001 C CNN
+F 3 "~" H 7550 3300 50  0001 C CNN
+	1    7550 3300
+	1    0    0    -1  
+$EndComp
+Text Notes 6550 6250 0    118  ~ 24
+Voltlog #210
+Text Notes 6550 6450 0    118  ~ 24
+https://www.youtube.com/watch?v=wDC6eQ25UTQ
+$EndSCHEMATC
